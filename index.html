@@ -1,0 +1,178 @@
+---
+title: Datakit landing page
+description: Introduction and demo of datakit
+---
+<section class="banner">
+  <div class="text-container">
+    <h1><strong>Datakit</strong></h1>
+    <p class="subtext">Basic, adaptable project organization.</p>
+  </div>
+</section>
+<div class="content">
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>Create projects as quickly<br>as news breaks</h2>
+        <p>Using <a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> templates, projects can be spun up quickly whenever needed.</p>
+      </div>
+      <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <li>datakit project create</li>
+          <span>Creating project from template: /Users/lfenn/.cookiecutters/cookiecutter-r-project</span><br>
+          <span>full_name [Larry Fenn]:</span><br>
+          <span>email [lfenn@ap.org]:</span><br>
+          <span>project_name [New Project]: Hudson Helicopter Crash</span><br>
+          <span>project_slug [hudson-helicopter-crash]</span><br>
+          <span>project_short_description [TK: short project description]: Pull FAA data on helicopter crashes</span><br>
+          <li> cd hudson-helicopter-crash</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>Simple, adaptable project structure</h2>
+        <p>Keep all parts of a project cleanly separated: data, code, configuration, documentation.</p>
+      </div>
+       <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <span>├── README.md</span><br>
+          <span>├── analysis</span><br>
+          <span>│   ├── analysis.R</span><br>
+          <span>│   ├── graphs.Rmd</span><br>
+          <span>│   └── story_lines.R</span><br>
+          <span>├── config</span><br>
+          <span>│   └── datakit-data.json</span><br>
+          <span>├── data</span><br>
+          <span>│   ├── manual</span><br>
+          <span>│   ├── processed</span><br>
+          <span>│   └── source</span><br>
+          <span>├── docs</span><br>
+          <span>├── output</span><br>
+          <span>│   └── totals_over_time.csv</span><br>
+          <span>└── trump-counties-employment.Rproj
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>Integrate with cloud storage<br>and hosting</h2>
+        <p>Automate data and code syncing to take the guesswork out of storage and backup.</p>
+      </div>
+       <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <li>datakit data push</li>
+          <span>EXECUTING: aws s3 sync --profile default data/ s3://data.ap.org/projects/2019/trump-counties-employment/data/</span><br>
+          <span>upload: data/manual/trumpjobs.sqlite to s3://data.ap.org/projects/2019/trump-counties-employment/data/manual/trumpjobs.sqlite</span><br>
+          <span>upload: data/reports/graphs.html to s3://data.ap.org/projects/2019/trump-counties-employment/data/reports/graphs.html</span><br>
+          <span>upload: data/source/LAUS/laucnty15.xlsx to s3://data.ap.org/projects/2019/trump-counties-employment/data/source/LAUS/laucnty15.xlsx</span><br>
+          <span>upload: data/source/LAUS/laucnty16.xlsx to s3://data.ap.org/projects/2019/trump-counties-employment/data/source/LAUS/laucnty16.xlsx</span><br>
+          <span>upload: data/source/LAUS/laucnty17.xlsx to s3://data.ap.org/projects/2019/trump-counties-employment/data/source/LAUS/laucnty17.xlsx</span><br>
+          <span>upload: data/source/LAUS/laucnty18.xlsx to s3://data.ap.org/projects/2019/trump-counties-employment/data/source/LAUS/laucnty18.xlsx</span><br>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner" id="tutorial">
+    <h1>Quickstart installation guide</h1>
+    <p class="subtext">For Python 3. If you do not have Python 3 installed on your machine, <a href="https://www.python.org/downloads/">get the latest version here</a>.</p>
+  </section>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>1. Install datakit-core</h2>
+      </div>
+      <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <li>pip install datakit-core</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container flex">
+  </div>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>2. Install datakit-project</h2>
+      </div>
+      <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <li>pip install datakit-project</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container flex">
+  </div>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>3. Grab a template</h2>
+        <p>Any valid <a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> will work.</p>
+      </div>
+      <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <li>datakit project create --template https://github.com/associatedpress/cookiecutter-r-project.git</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container flex">
+  </div>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>4. Get to work</h2>
+      </div>
+      <div class="shell-wrap">
+        <p class="shell-top-bar">terminal</p>
+        <ul class="shell-body">
+          <li>datakit project create</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container flex">
+  </div>
+
+  <section>
+    <div class="container flex">
+      <div class="text">
+        <h2>5. Adapt to your workflow</h2>
+        <p>Grab other plugins or develop your own!</p>
+      </div>
+      <div class="text">
+        <ul>
+          <li><p><a href="https://github.com/associatedpress/datakit-data">datakit-data</a>: Amazon S3 sync</p></li>
+          <li><p>(coming soon!) datakit-dworld: Data.world sync</p></li>
+          <li><p>(coming soon!) datakit-gitlab: Gitlab integration</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="bottom-cta">
+    <h2>Choosy teams choose <strong>datakit</strong></h2>
+  </section>
+</div>

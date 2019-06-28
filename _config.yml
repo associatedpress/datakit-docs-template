@@ -1,0 +1,38 @@
+# ----
+# Site
+
+title: Datakit page
+url:
+baseurl: .
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+collections:
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+  - scope:
+      path: "why.html"
+    values:
+      layout: "default"
+
+plugins:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

@@ -1,0 +1,12 @@
+- name: Tutorial
+  link: http://larryfenn.com/datakit-docs/#tutorial
+  new_window: false
+- name: Why?
+  link: http://larryfenn.com/datakit-docs/why.html
+  new_window: false
+- name: Docs
+  link: https://datakit-core.readthedocs.io/en/latest/
+  new_window: false
+- name: Github
+  link: https://github.com/associatedpress/datakit-core
+  new_window: false

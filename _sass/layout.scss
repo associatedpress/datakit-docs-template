@@ -1,0 +1,166 @@
+.container, .text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 52px;
+}
+
+.text-container {
+	max-width: 750px;
+}
+
+.container {
+	max-width: 1440px;
+
+	&.max-container {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+header {
+	color: #fff;
+	padding: 0 0;
+	background: #146994;
+        min-height: 120px;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.company-name {
+		font-size: 1.7em;
+		line-height: 0;
+
+		a {
+			display: inline-block;
+		}
+
+		img {
+			display: block;
+			width: 75px;
+		}
+	}
+}
+
+.content {
+	background: #fff;
+	padding: 1px 0 0 0;
+	position: relative;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+
+section {
+	padding: 20px 0;
+}
+
+section + section {
+	padding-top: 0;
+}
+
+.subtext {
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.cta {
+	margin: 10px 0;
+}
+
+.page h2 {
+	text-align: center;
+}
+
+.page {
+	margin-bottom: 0;
+	padding-bottom: 80px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.shell-wrap {
+  max-width: 550px;
+  margin: 20px auto 0 auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.shell-top-bar {
+    overflow: hidden;
+  text-align: center;
+  color: #525252;
+  padding: 4px 0;
+  margin: 0;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+  font-size: 0.85em;
+  border: 1px solid #CCCCCC;
+  border-bottom: none;
+
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+  background: #f7f7f7; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f7f7f7 0%, #B8B8B8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#B8B8B8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f7f7f7 0%,#B8B8B8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f7f7f7 0%,#B8B8B8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f7f7f7 0%,#B8B8B8 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f7f7f7 0%,#B8B8B8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#B8B8B8',GradientType=0 ); /* IE6-9 */
+}
+
+.shell-body {
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  background: #141414;
+  color: #FFFFFF;
+  font: 0.8em 'Andale Mono', Consolas, 'Courier New';
+  line-height: 1.6em;
+  overflow: auto;
+
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.shell-body li:before {
+    content: '$';
+    color: #8bb5e1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.shell-body li {
+  position: relative;
+  padding: 0 0 0 15px;
+    white-space: nowrap;
+}
+
+.shell-body span {
+    white-space: nowrap;
+}

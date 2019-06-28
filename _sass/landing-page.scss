@@ -1,0 +1,47 @@
+.bottom-cta {
+	background: #146994;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 50px 0;
+        max-width: 1440px;
+        margin-right: auto;
+        marign-left: auto;
+
+	h2 {
+		margin-bottom: 50px;
+	}
+}
+
+.banner {
+	color: #ffffff;
+	text-align: center;
+	background: #146994;
+	padding-top: 20px;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+
+	p {
+		color: #fff;
+	}
+}
+
+
+@media #{$desktop} {
+	.flex {
+		@include flexbox;
+		align-items: center;
+		flex-direction: row;
+
+		.text, .image, .shell-wrap {
+			-webkit-flex: 1;
+			flex: 1;
+			padding: 0 20px;
+		}
+	}
+
+	.content section:nth-child(even) .flex {
+		flex-direction: row-reverse;
+	}
+}

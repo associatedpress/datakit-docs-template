@@ -1,8 +1,8 @@
 - name: Tutorial
-  link: http://larryfenn.com/datakit-docs/#tutorial
+  link: http://datakit.ap.org/#tutorial
   new_window: false
 - name: Why?
-  link: http://larryfenn.com/datakit-docs/why.html
+  link: http://datakit.ap.org/why.html
   new_window: false
 - name: Docs
   link: https://datakit-core.readthedocs.io/en/latest/

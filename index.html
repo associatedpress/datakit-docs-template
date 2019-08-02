@@ -82,9 +82,18 @@ description: Introduction and demo of datakit
     </div>
   </section>
 
+  <section class="users" id="users">
+    <h1>Datakit is used by:</h1>
+    <div class="parent flex-parent">
+      <div class="child flex-child">
+        <img src="images/user_images/AP_RGB.jpg" alt="Associated Press" height="100">
+      </div>
+    </div>
+  </section>
   <section class="banner" id="tutorial">
     <h1>Quickstart installation guide</h1>
     <p class="subtext">For Python 3. If you do not have Python 3 installed on your machine, <a href="https://www.python.org/downloads/">get the latest version here</a>.</p>
+    <p class="subtext">More detailed installation documents are available <a href="https://datakit-core.readthedocs.io/en/latest/readme.html#installation">here</a>.</p>
   </section>
 
   <section>
@@ -130,7 +139,7 @@ description: Introduction and demo of datakit
       <div class="shell-wrap">
         <p class="shell-top-bar">terminal</p>
         <ul class="shell-body">
-          <li>datakit project create --template https://github.com/associatedpress/cookiecutter-r-project.git</li>
+          <li>datakit project create -t https://github.com/associatedpress/cookiecutter-r-project.git</li>
         </ul>
       </div>
     </div>
@@ -162,11 +171,11 @@ description: Introduction and demo of datakit
         <h2>5. Adapt to your workflow</h2>
         <p>Grab other plugins or develop your own!</p>
       </div>
-      <div class="text">
+      <div class="shell-wrap">
         <ul>
           <li><p><a href="https://github.com/associatedpress/datakit-data">datakit-data</a>: Amazon S3 sync</p></li>
           <li><p>(coming soon!) datakit-dworld: Data.world sync</p></li>
-          <li><p>(coming soon!) datakit-gitlab: Gitlab integration</p></li>
+          <li><p>(coming soon!) datakit-github: Github integration</p></li>
         </ul>
       </div>
     </div>

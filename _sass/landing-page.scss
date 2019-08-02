@@ -27,6 +27,30 @@
 	}
 }
 
+.users {
+	color: #ffffff;
+	text-align: center;
+	background: #E7E2D8;
+	padding-top: 20px;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+	p {
+		color: #000;
+	}
+        h1 {
+            color: #000;
+            margin-bottom: 20px;
+        }
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
 
 @media #{$desktop} {
 	.flex {

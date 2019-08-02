@@ -15,8 +15,7 @@ collections:
 permalink: pretty
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "index.html"
     values:
       layout: "default"

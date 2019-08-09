@@ -4,7 +4,7 @@
         background-color: #081c2f;
 
 	a {
-		display: block;
+	    display: block;
 	}
 
 	@media #{$mid-point} {
@@ -33,15 +33,13 @@ nav {
 		padding: 0 20px;
 	}
 
-
 	a {
-		margin: 0 3px;
+	    margin: 0 3px;
 		padding: 10px 40px;
 		border-bottom: 1px solid rgba(255,255,255,0);
 		color: rgba(255,255,255,.8);
 		display: none;
                 text-align: right;
-
 		@media #{$mid-point} {
 			display: inline;
 			padding: 10px;
@@ -55,7 +53,6 @@ nav {
 			top: -60px;
 			font-size: 1.9em;
 			border: 0;
-
 			@media #{$mid-point} {
 				display: none;
 			}
@@ -67,7 +64,6 @@ nav {
 	}
 
 	a:hover {
-
 		border-bottom: 1px solid rgba(255,255,255,.3);
 		color: #fff;
 	}

@@ -1,3 +1,17 @@
+@font-face {
+    font-family: GoodBook;
+    src: url("/fonts/GoodWeb-Book.eot");
+    src: url("/fonts/GoodWeb-Book.woff") format("woff");
+    src: url("/fonts/GoodComp-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: GoodBookCond;
+    src: url("/fonts/GoodWeb-CondBook.eot");
+    src: url("/fonts/GoodWeb-CondBook.woff") format("woff");
+    src: url("/fonts/GoodComp-CondBook.ttf") format("truetype");
+}
+
 html {
 	background: #ececec;
 }
@@ -8,7 +22,7 @@ html, body {
 }
 
 body {
-	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+	font-family: "GoodBook", Fallback, sans-serif;
 }
 
 a {

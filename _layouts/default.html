@@ -13,7 +13,11 @@
   <body>
     <header>
       <div class="container">
-        <div class="company-name"><a href="https://www.ap.org/en-us/"><img src="{{ site.baseurl }}/images/AP.svg" alt="Associated Press Logo"/></a><a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/images/datakitlogo.svg" alt="Datakit Logo"/></a></div>
+        <div class="company-name"><a href="https://github.com/associatedpress?q=datakit"><img src="{{ site.baseurl }}/images/AP.svg" alt="Associated Press Logo"/></a><!--<a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/images/datakitlogo.svg" alt="Datakit Logo"/></a>-->
+          <div class="datakit-name">
+            <h1><strong>Datakit</strong></h1>
+          </div>
+        </div>
         {% include navigation.html %}
       </div>
     </header>
@@ -24,7 +28,7 @@
           {% for column in site.data.footer %}
           <ul class="footer-links">
             {% for link in column.links %}
-            <li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+            <li><a href="{% include relative-src.html src=link.link%}">
                 {{ link.name }}</a></li>
             {% endfor %}
           </ul>

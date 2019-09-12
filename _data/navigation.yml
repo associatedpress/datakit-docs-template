@@ -5,7 +5,7 @@
   link: http://datakit.ap.org/why.html
   new_window: false
 - name: Docs
-  link: https://datakit-core.readthedocs.io/en/latest/
+  link: https://datakit-project.readthedocs.io/
   new_window: false
 - name: Github
   link: https://github.com/associatedpress/datakit-core

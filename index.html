@@ -78,6 +78,17 @@ description: Introduction and demo of DataKit
       </div>
     </div>
   </section>
+  
+  <section>
+    <div class="container">
+      <div class="text" style="padding: 0 20px;">
+        <h1>What is DataKit?</h1>
+        <p>
+          AP DataKit is an open-source command-line tool designed to better structure and manage projects. It makes it easier to standardize and share work among members of your team, and to keep your past projects organized and easily accessible for future reference. AP DataKit works off a basic framework that includes the core product and a few key plugins to help you manage where your data files and code are stored and updated.
+        </p>
+      </div>
+    </div>
+  </section>
   <section class="banner" id="tutorial">
     <h1>Quickstart installation guide</h1>
     <p class="subtext">For Python 3. If you do not have Python 3 installed on your machine, <a href="https://www.python.org/downloads/">get the latest version here</a>.</p>
@@ -85,6 +96,8 @@ description: Introduction and demo of DataKit
   </section>
   <br>
   <br>
+  <section>
+  </section>
   <section>
     <div class="container flex">
       <div class="text">
@@ -107,7 +120,12 @@ description: Introduction and demo of DataKit
     <div class="container flex">
       <div class="text">
         <h2>2. Grab a template</h2>
-        <p>For project structures, any valid <a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> will work.</p>
+        <p>The AP has created both a Python and R project structure template:</p>
+        <ul>
+          <li><a href="https://github.com/associatedpress/cookiecutter-python-project">Python project template</a></li>
+          <li><a href="https://github.com/associatedpress/cookiecutter-r-project">R project template</a></li>
+        </ul>
+        <p>If you'd like to customize your own, any valid <a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> will work.</p>
       </div>
       <div class="shell-wrap">
         <p class="shell-top-bar">terminal</p>
@@ -125,6 +143,7 @@ description: Introduction and demo of DataKit
     <div class="container flex">
       <div class="text">
         <h2>3. Get to work</h2>
+        <p>On the command line, datakit project create will create a project with a standardized file structure.</p>
       </div>
       <div class="shell-wrap">
         <p class="shell-top-bar">terminal</p>
@@ -142,15 +161,15 @@ description: Introduction and demo of DataKit
     <div class="container flex">
       <div class="text">
         <h2>4. Adapt to your workflow</h2>
-        <p>Grab other plugins or develop your own!</p>
+        <p>Additional plugins can help you manage the storage of flat data files, sync your code to GitLab or GitHub and push your output to data.world for sharing. Grab other plugins or develop your own!</p>
       </div>
       <div class="shell-wrap">
         <ul style="list-style-type:none">
           <li><p><b>Data storage and backup:</b> Amazon S3 sync - <a href="https://datakit-data.readthedocs.io/en/latest/">datakit-data</a></li>
           <li><p><b>Version control:</b></p>
               <ul>
-                <li><p>Github integration - <a href="https://github.com/associatedpress/datakit-github/">datakit-github</a></p></li>
-                <li><p>Gitlab integration - <a href="https://github.com/associatedpress/datakit-gitlab/">datakit-gitlab</a></p></li>
+                <li><p>GitHub integration - <a href="https://github.com/associatedpress/datakit-github/">datakit-github</a></p></li>
+                <li><p>GitLab integration - <a href="https://github.com/associatedpress/datakit-gitlab/">datakit-gitlab</a></p></li>
               </ul>
           <li><p><b>Publishing shareable output:</b> Data.world - <a href="https://github.com/associatedpress/datakit-dworld/">datakit-dworld</a></p></li>
         </ul>

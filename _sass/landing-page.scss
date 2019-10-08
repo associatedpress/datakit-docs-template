@@ -1,43 +1,73 @@
 .bottom-cta {
-	background: #146994;
-	color: #fff;
-	text-align: center;
-	margin: 0;
-	padding: 50px 0;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
         max-width: 1440px;
         margin-right: auto;
         marign-left: auto;
 
-	h2 {
-		margin-bottom: 30px;
-	}
+    h2 {
+        margin-bottom: 30px;
+    }
 }
 
 .banner {
-	color: #ffffff;
-	text-align: center;
-	background: #146994;
-	padding-top: 20px;
+    color: #ffffff;
+    background: #055072;
+    padding-top: 20px;
         max-width: 1440px;
         margin-right: auto;
         margin-left: auto;
 
-	p {
-		color: #fff;
-	}
+        p {
+            margin-left: 70px;
+            color: #fff;
+            margin-bottom: 0px;
+            margin-top: -10px;
+            max-width: 500px;
+        }
+    h1 {
+        margin-left: 70px;
+        color: #fff;
+        font-family: "GoodBookCond", Fallback, sans-serif;
+        font-size: 4.3em;
+    }
+}
+
+.tutorial {
+    background: #fff;
+    padding-top: 20px;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+
+        p {
+            margin-left: 70px;
+            color: #fff;
+            margin-bottom: 0px;
+            margin-top: -10px;
+            color: #000;
+            line-height: 40px;
+        }
+        h1 {
+            text-align: center;
+        color: #000;
+        font-family: "GoodBookCond", Fallback, sans-serif;
+        font-size: 4.3em;
+    }
 }
 
 .users {
-	color: #ffffff;
-	text-align: center;
-	background: #E7E2D8;
-	padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: #E7E2D8;
+    padding-top: 20px;
         max-width: 1440px;
         margin-right: auto;
         margin-left: auto;
-	p {
-		color: #000;
-	}
+    p {
+        color: #000;
+    }
         h1 {
             color: #000;
             margin-bottom: 20px;
@@ -53,20 +83,20 @@
 }
 
 @media #{$desktop} {
-	.flex {
-		@include flexbox;
-		flex-direction: row;
+    .flex {
+        @include flexbox;
+        flex-direction: row;
 
-		.text, .image, .shell-wrap {
-			-webkit-flex: 1;
-			flex: 1;
-			padding: 0 20px;
+        .text, .image, .shell-wrap {
+            -webkit-flex: 1;
+            flex: 1;
+            padding: 0 20px;
                             min-width: 0px;
 
-		}
-	}
+        }
+    }
 
-	.content section:nth-child(even) .flex {
-		flex-direction: row-reverse;
-	}
+    .content section:nth-child(even) .flex {
+        flex-direction: row-reverse;
+    }
 }

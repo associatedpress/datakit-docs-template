@@ -1,7 +1,7 @@
 .nav-open nav {
 	border-bottom: 1px dotted rgba(255, 255, 255, .2);
 	padding: 10px 0;
-        background-color: #081c2f;
+        background-color: #ececec;
 
 	a {
 	    display: block;
@@ -28,7 +28,7 @@ nav {
 	@media #{$mid-point} {
 		text-align: right;
 		position: absolute;
-		top: 13px;
+		top: 50px;
 		right: 0;
 		padding: 0 20px;
 	}
@@ -37,7 +37,6 @@ nav {
 	    margin: 0 3px;
 		padding: 10px 40px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
 		display: none;
                 text-align: right;
 		@media #{$mid-point} {
@@ -50,7 +49,7 @@ nav {
 			display: inline;
 			position: absolute;
 			right: -5px;
-			top: -60px;
+			top: -35px;
 			font-size: 1.9em;
 			border: 0;
 			@media #{$mid-point} {
@@ -58,14 +57,15 @@ nav {
 			}
 
 			&:hover {
-				border: 0;
+			    border: 0;
+                            color: #5d5a58;
 			}
 		}
 	}
 
 	a:hover {
 		border-bottom: 1px solid rgba(255,255,255,.3);
-		color: #fff;
+                color: #5d5a58;
 	}
 
 	@media #{$mid-point} {

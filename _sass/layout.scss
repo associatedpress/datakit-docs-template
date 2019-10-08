@@ -1,71 +1,69 @@
 .container, .text-container {
-	margin: 0 auto;
-	position: relative;
-	padding: 0 52px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 52px;
         z-index: 2;
 }
 
 .text-container {
-	max-width: 750px;
+    max-width: 750px;
 }
 
 .container {
-	max-width: 1440px;
+    max-width: 1440px;
 
-	&.max-container {
-		max-width: 100%;
-		padding: 0;
-	}
+    &.max-container {
+        max-width: 100%;
+        padding: 0;
+    }
 }
 
 header {
-	color: #fff;
-	padding: 0 0;
-	background: #146994;
-        min-height: 60px;
-        max-height: 70px;
+    padding: 0 0;
+        min-height: 110px;
+        max-height: 110px;
         max-width: 1440px;
         margin-right: auto;
         margin-left: auto;
 
-	a {
-		color: #fff;
-		text-decoration: none;
-		z-index: 1;
-		position: relative;
+    a {
+            color: #000;
+        text-decoration: none;
+        z-index: 1;
+        position: relative;
 
-		&:hover {
-			text-decoration: none;
-		}
-	}
+        &:hover {
+            text-decoration: none;
+        }
+    }
 
-	.company-name {
-		font-size: 1.7em;
-		line-height: 0;
+    .company-name {
+        font-family: "GoodBookCond", Fallback, sans-serif;
+        font-size: 1em;
+        line-height: 0;
 
-		a {
-			display: inline-block;
-		}
+        a {
+            display: inline-block;
+        }
 
-		img {
-			display: block;
-			width: 75px;
-		}
-	}
+        img {
+            display: block;
+            width: 75px;
+        }
+    }
 
         .datakit-name {
-            font-family: GoodBookCond;
+            float: right;
             display: inline-block;
             position: relative;
-            bottom: 30px;
-            left: 10px;
+            left: 25px;
+            top: 25px;
         }
 }
 
 .content {
-	background: #fff;
-	padding: 1px 0 0 0;
-	position: relative;
+    padding: 1px 0 0 0;
+    position: relative;
         max-width: 1440px;
         margin-right: auto;
         margin-left: auto;
@@ -73,34 +71,34 @@ header {
 
 
 section {
-	padding: 20px 0;
+    padding: 20px 0;
 }
 
 section + section {
-	padding-top: 0;
+    padding-top: 0;
 }
 
 .subtext {
-	margin-top: 20px;
-	text-align: center;
+    margin-top: 20px;
+    text-align: center;
 }
 
 
 .cta {
-	margin: 10px 0;
+    margin: 10px 0;
 }
 
 .page h2 {
-	text-align: center;
+    text-align: center;
 }
 
 .page {
-	margin-bottom: 0;
-	padding-bottom: 80px;
+    margin-bottom: 0;
+    padding-bottom: 80px;
 }
 
 .center-text {
-	text-align: center;
+    text-align: center;
 }
 
 .shell-wrap {

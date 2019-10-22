@@ -1,16 +1,45 @@
 - links:
+  - name: AP DATAKIT
+    type: label
   - name: Tutorial
     link: http://datakit.ap.org/#tutorial
     new_window: false
-- links:
   - name: Why?
     link: http://datakit.ap.org/why.html
     new_window: false
-- links:
   - name: Docs
     link: https://datakit-project.readthedocs.io/
     new_window: false
-- links:
   - name: Github
     link: https://github.com/associatedpress/datakit-core
     new_window: false
+- links:
+  - name: CONTACT/QUESTIONS
+    type: label
+  - name: datateam@ap.org
+    link: mailto:datateam@ap.org
+    new_window: false
+- links:
+  - name: MORE FROM AP
+    type: label
+  - name: ap.org
+    link: https://www.ap.org
+    new_window: false
+  - name: AP Insights
+    link: https://insights.ap.org
+    new_window: false
+  - name: AP Definitive Source
+    link: https://blog.ap.org
+    new_window: false
+  - name: AP Images Spotlight
+    link: https://apimagesblog.com
+    new_window: false
+  - name: AP Explore
+    link: https://www.ap.org/explore/index.html
+    new_window: false
+  - name: AP Books
+    link: https://www.ap.org/books/index.html
+    new_window: false
+- links:
+  - name: FOLLOW AP
+    type: social_container

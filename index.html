@@ -120,12 +120,13 @@ description: Introduction and demo of DataKit
     <div class="container flex">
       <div class="text">
         <h2>2. Grab a template</h2>
-        <p>The AP has created both a Python and R project structure template:</p>
+        <p>DataKit uses <a href="https://github.com/cookiecutter/cookiecutter">Cookiecutter</a> templates for project structure and initial configuration.</p>
+        <p>The following templates are available:</p>
         <ul>
-          <li><a href="https://github.com/associatedpress/cookiecutter-python-project">Python project template</a></li>
-          <li><a href="https://github.com/associatedpress/cookiecutter-r-project">R project template</a></li>
+          <li><a href="https://github.com/associatedpress/cookiecutter-python-project">Python project template</a>: This is a Jupyter-specific cookiecutter which uses <code>pipenv</code>.</li>
+          <li><a href="https://github.com/associatedpress/cookiecutter-r-project">R project template</a>: This is a R project cookiecutter which uses an RStudio <code>.Rproj</code> file.</li>
+          <li><a href="https://github.com/associatedpress/cookiecutter-generic-project">Generic template</a>: This is a basic cookiecutter which defines only the folder structure, a project <code>README</code>, and a <code>.gitignore</code> file. If your project workflow isn't covered by the Python or R project templates, or you want to develop your own project template, this is the place to start.</li>
         </ul>
-        <p>If you'd like to customize your own, any valid <a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> will work.</p>
       </div>
       <div class="shell-wrap">
         <p class="shell-top-bar">terminal</p>

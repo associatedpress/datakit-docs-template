@@ -38,10 +38,13 @@ header {
     }
 
     .company-name {
-        font-family: "GoodBookCond", Fallback, sans-serif;
-        font-size: 1em;
-        line-height: 0;
-
+        font-family: "AP", Fallback, sans-serif;
+        font-family: var(--ap-var, "AP Var"),Arial,Helvetica,sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+        text-transform: uppercase;
+        font-stretch: 50%;
         a {
             display: inline-block;
         }

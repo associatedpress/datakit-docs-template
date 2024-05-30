@@ -1,16 +1,17 @@
 @font-face {
-    font-family: GoodBook;
-    src: url("/fonts/GoodWeb-Book.eot");
-    src: url("/fonts/GoodWeb-Book.woff") format("woff");
-    src: url("/fonts/GoodComp-Book.ttf") format("truetype");
+  font-family: "AP";
+  src: url("/fonts/ap_var.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 1000;
+	font-stretch: 25% 151%;
 }
 
 @font-face {
-    font-family: GoodBookCond;
-    src: url("/fonts/GoodWeb-CondBook.eot");
-    src: url("/fonts/GoodWeb-CondBook.woff") format("woff");
-    src: url("/fonts/GoodComp-CondBook.ttf") format("truetype");
+  font-family: "AP Italic";
+  src: url("/fonts/ap_italic.woff2") format("woff2");
+  font-style: italic;
 }
+
 
 html {
 	background: #ececec;
@@ -22,7 +23,10 @@ html, body {
 }
 
 body {
-	font-family: "GoodBook", Fallback, sans-serif;
+	font-family: "AP", Fallback, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.55;
 }
 
 #rectangle {
@@ -48,18 +52,22 @@ h1 strong, h2 strong {
 }
 
 h1 {
-	font-weight: 300;
-	font-size: 2.3em;
 	margin: 0;
 }
 
 h2 {
-	font-weight: 300;
-	font-size: 2.2em;
-	margin: 20px 0 20px 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  letter-spacing: -0.018rem;
+  font-stretch: 75%;
 }
 
 h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  font-stretch: 90%;
 	margin: 20px 0 10px 0;
 }
 
